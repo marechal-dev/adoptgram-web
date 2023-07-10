@@ -5,7 +5,6 @@
   "scripts": {
     "lint": "next lint",
     "format": "prettier --write src/**/*.{ts,tsx} --config prettier.config.js",
-    "prebuild": "npm run lint && npm run format",
     "build": "next build",
     "start:dev": "next dev",
     "start:prod": "next start"
