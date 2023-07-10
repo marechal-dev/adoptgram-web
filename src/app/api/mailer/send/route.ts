@@ -12,7 +12,7 @@ if (!process.env.RESEND_API_KEY) {
 const RESEND_API_ENDPOINT = 'https://api.resend.com/emails';
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 
-const DOMAIN = "adoptgram.dev";
+const DOMAIN = 'adoptgram.dev';
 const SENDER = `mailer@${DOMAIN}`;
 
 const createEmailRequestBodyValidator = z.object({
