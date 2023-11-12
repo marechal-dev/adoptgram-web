@@ -17,10 +17,6 @@ export const metadata: Metadata = {
   description:
     'O Website que te ajudará a encontrar seu novo melhor amigo 🐶🐱❤',
   applicationName: 'AdoptGram',
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-  },
   creator: 'Pietro Piva Vieira',
   publisher: 'DevArmy Software',
 };

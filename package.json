@@ -6,7 +6,7 @@
     "lint": "next lint",
     "format": "prettier --write src/**/*.{ts,tsx} --config prettier.config.js",
     "build": "next build",
-    "start:dev": "next dev",
+    "start:dev": "next dev --turbo",
     "start:prod": "next start"
   },
   "dependencies": {
