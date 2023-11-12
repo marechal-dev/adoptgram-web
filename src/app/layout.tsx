@@ -1,5 +1,6 @@
 import './globals.css';
 
+import { Analytics } from '@vercel/analytics/react';
 import { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 
@@ -31,7 +32,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt_BR">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
