@@ -6,7 +6,31 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        'hero': '75% 25%',
+      },
+      colors: {
+        adoptgram: {
+          text: {
+            main: '#2C2828',
+          },
+          brand: {
+            orange: {
+              100: '#FBE9CD',
+              500: '#F7D3A4',
+            },
+            blue: {
+              300: '#6C8EAD',
+              800: '#195891',
+            },
+            red: {
+              error: '#D94E41'
+            },
+          },
+        }
+      }
+    },
   },
   plugins: [],
 }

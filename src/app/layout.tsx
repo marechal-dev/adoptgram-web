@@ -27,8 +27,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt_BR">
-      <body className={poppins.className}>
+    <html lang="pt_BR" className='h-full'>
+      <body className={`${poppins.className} min-h-full`}>
         {children}
         <Analytics />
       </body>
